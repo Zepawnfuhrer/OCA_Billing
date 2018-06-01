@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="OCA Codes">738d8a73db9e1300cca6d100cf9619ad</application>
+        <filter/>
+        <name>OCA Codes</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_94651_oca_billin.oca_billing_admin</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-01 20:41:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f8d8a73db9e1300cca6d100cf9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OCA Codes</sys_name>
+        <sys_package display_value="OCA Billing" source="x_94651_oca_billin">d42a7db3db5e1300cca6d100cf961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCA Billing">d42a7db3db5e1300cca6d100cf961950</sys_scope>
+        <sys_update_name>sys_ui_module_7f8d8a73db9e1300cca6d100cf9619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-01 20:41:58</sys_updated_on>
+        <table>x_94651_oca_billin_oca_code</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

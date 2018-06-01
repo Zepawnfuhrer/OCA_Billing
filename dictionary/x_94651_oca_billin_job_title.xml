@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Job Title" max_length="40" name="x_94651_oca_billin_job_title" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Departments" max_length="4000" name="departments" reference="cmn_department" type="glide_list"/>
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element display="true" label="Name" max_length="85" name="name" type="string"/>
+    </element>
+</database>

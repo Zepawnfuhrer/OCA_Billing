@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Employee OCA" max_length="40" name="x_94651_oca_billin_employee_oca" type="collection">
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="OCA Code" max_length="32" name="oca_code" reference="x_94651_oca_billin_oca_code" type="reference"/>
+        <index name="index">
+            <element name="oca_code"/>
+        </index>
+        <index name="index2">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

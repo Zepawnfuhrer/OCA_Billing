@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="OCA Code" max_length="40" name="x_94651_oca_billin_oca_code" type="collection">
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element display="true" label="Value" max_length="85" name="value" type="string"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+    </element>
+</database>
